@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerCoffeeList = styled.div`
   display: flex;
   flex-direction: column;
+
   gap: 1rem;
   padding-bottom: 10rem;
 
@@ -17,4 +18,5 @@ export const ContainerCoffees = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem 2rem;
+  width: 100%;
 `;

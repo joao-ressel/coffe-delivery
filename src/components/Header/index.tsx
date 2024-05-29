@@ -5,7 +5,9 @@ import { NavLink } from "react-router-dom";
 export function Header() {
   return (
     <HeaderContainer>
-      <img src={LogoCoffeeDelivery} />
+      <NavLink to="/">
+        <img src={LogoCoffeeDelivery} />
+      </NavLink>
       <HeaderItems>
         <LocalDiv>
           <MapPin size={24} weight="fill" />
