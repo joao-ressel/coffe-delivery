@@ -37,6 +37,7 @@ export const InputGroup = styled.div`
 
   width: 100%;
 `;
+
 export const InputForm = styled.input`
   color: ${(props) => props.theme["gray-700"]};
   background-color: ${(props) => props.theme["gray-300"]};
@@ -57,13 +58,16 @@ export const InputFormNormal = styled(InputForm)`
   width: 200px;
   flex: 1;
 `;
+
 export const InputFormPequeno = styled(InputForm)`
   width: 60px;
 `;
+
 export const InputFormMedio = styled(InputForm)`
   width: 348px;
   flex: 2;
 `;
+
 export const InputFormTotal = styled(InputForm)`
   width: 100%;
 `;

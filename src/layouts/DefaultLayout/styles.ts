@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const LayoutContainer = styled.div`
-    height: calc(100vh - 10rem);
-    border-radius: 8px;
-    margin: 0 10rem;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  margin: 0 20rem;
+  border-radius: 8px;
 `;
